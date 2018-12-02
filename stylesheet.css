@@ -19,7 +19,11 @@
 
 .logo {
   text-align: center;
-  padding-bottom: 2em;
+  /* padding-bottom: 2em; */
+}
+
+.ip {
+  text-align: center;
 }
 
 .topnav {
