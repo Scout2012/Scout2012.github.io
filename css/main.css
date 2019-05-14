@@ -10,7 +10,7 @@ body {
   flex-grow: 0;
   min-height: 100vh;
   display: flex;
-  background: #0A2033; }
+  background: #112D32; }
 
 img {
   height: 15em;
@@ -18,32 +18,33 @@ img {
   object-fit: cover; }
 
 .img-contain {
-  background: #59C9A5;
+  background: #88BDBC;
   margin-left: 1em;
   padding: 1em;
   max-height: 20em;
   max-width: 20em; }
 
 .head {
-  background: #0A2033; }
+  background: #112D32; }
 
 .menu {
   position: relative;
   display: flex;
-  border-bottom: 0.4em solid #59C9A5; }
+  border-bottom: 0.4em solid #88BDBC; }
   .menu .logo {
     text-align: center;
     padding: 1em;
     margin-bottom: 1.5em;
     margin-left: 1em;
-    background: #59C9A5; }
+    background: #88BDBC; }
   .menu .nav-bar {
+    font-size: medium;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
     display: flex;
     padding: 1em 0;
     height: 100%;
-    background: rgba(10, 32, 51, 0.4);
+    background: rgba(17, 45, 50, 0.4);
     flex-wrap: wrap;
     margin-left: auto; }
     .menu .nav-bar .nav-item {
@@ -53,10 +54,10 @@ img {
       .menu .nav-bar .nav-item a {
         transition: all .3s ease-out;
         text-decoration: none;
-        color: #59C9A5;
+        color: #88BDBC;
         padding: 1em; }
         .menu .nav-bar .nav-item a:hover {
-          background: #59C9A5;
+          background: #88BDBC;
           color: white; }
 
 @media (max-width: 1170px) {
@@ -74,10 +75,11 @@ img {
 .personal {
   margin-top: 1em; }
   .personal .description {
+    font-size: 1.2em;
     display: flex;
     margin-left: 2em;
     margin-right: 2em;
-    background: #59C9A5;
+    background: #88BDBC;
     padding: 1.5em 1em;
     text-align: center;
     align-items: center; }
@@ -108,7 +110,7 @@ img {
 .experience {
   display: flex;
   justify-content: space-evenly;
-  background: #0A2033;
+  background: #112D32;
   padding: 2em 0 0 2em;
   padding-left: 2em; }
   .experience .job, .experience .proj {
@@ -122,7 +124,7 @@ img {
     width: 100%;
     background-color: transparent;
     height: 5vh;
-    color: #59C9A5;
+    color: #88BDBC;
     white-space: nowrap;
     text-decoration: none; }
     .experience .job:focus, .experience .proj:focus {
@@ -130,7 +132,7 @@ img {
     .experience .job:hover, .experience .proj:hover {
       transition: all .3s ease-out; }
       .experience .job:hover:hover, .experience .proj:hover:hover {
-        background: #59C9A5;
+        background: #88BDBC;
         color: white; }
   .experience .jobs-wrap {
     display: flex;
@@ -147,7 +149,7 @@ img {
       padding: 3em;
       margin-left: 1em;
       margin-bottom: 1em;
-      background: #59C9A5;
+      background: #88BDBC;
       min-height: calc(100vh - 45em);
       width: auto;
       max-width: 50vh; }
@@ -158,7 +160,7 @@ img {
         padding: 1em; }
         .experience .descriptions .desc a:hover {
           background: #246A73;
-          color: #59C9A5; }
+          color: #88BDBC; }
 
 @media (max-width: 1170px) {
   .test-wrap {
@@ -184,11 +186,11 @@ img {
       color: white;
       padding: 1em; }
       .desc a:hover {
-        background: #59C9A5;
+        background: #88BDBC;
         color: white; } }
 
 #job-tab0, #proj-tab0 {
-  background: #59C9A5;
+  background: #88BDBC;
   color: white;
   border-left: 5px solid #246A73; }
 
@@ -199,12 +201,12 @@ img {
   left: 0;
   display: flex;
   height: 5em;
-  background: #0A2033;
+  background: #112D32;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   width: 100%;
-  border-top: 0.4em solid #59C9A5;
+  border-top: 0.4em solid #88BDBC;
   margin: 0; }
 
 .icons a {
